@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net40</TargetFrameworks>
+    <PackageId>Bajonczak.Guard</PackageId>
+    <Title>Bajonczak.Guard</Title>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Sascha Bajonczak</Authors>
+    <Company>https://blog.bajonczak.com</Company>
+    <PackageProjectUrl>https://github.com/sbajonczak/guard</PackageProjectUrl>
+    <Description>A simple package with guard clause helper methods. See docs for how to extend using your own extension methods.</Description>
+    <Summary>A simple package with guard clause helper methods. See docs for how to extend using your own extension methods.</Summary>
+    <RepositoryUrl>https://github.com/sbajonczak/guard</RepositoryUrl>
+    <PackageTags>guard clause clauses assert assertion</PackageTags>
+    <PackageReleaseNotes>Added a new guard for NotFound; added support for optional custom error messages</PackageReleaseNotes>
+    <Version>1.0.0</Version>
+    <AssemblyName>Bajonczak.GuardClauses</AssemblyName>
+    <PackageIcon>icon.png</PackageIcon>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DocumentationFile>bin\$(Configuration)\Bajonczak.GuardClauses.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-*" PrivateAssets="All" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon.png" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
+</Project>
