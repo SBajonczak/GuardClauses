@@ -1,13 +1,5 @@
 
 
-<!-- [![NuGet](https://img.shields.io/nuget/v/Ardalis.GuardClauses.svg)](https://www.nuget.org/packages/Ardalis.GuardClauses)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.GuardClauses.svg)](https://www.nuget.org/packages/Ardalis.GuardClauses)
-![publish Ardalis.GuardClauses to nuget](https://github.com/ardalis/GuardClauses/workflows/publish%20Ardalis.GuardClauses%20to%20nuget/badge.svg) -->
-
-<a href="https://twitter.com/intent/follow?screen_name=ardalis">
-    <img src="https://img.shields.io/twitter/follow/ardalis.svg?label=Follow%20@ardalis" alt="Follow @ardalis" />
-</a> &nbsp; <a href="https://twitter.com/intent/follow?screen_name=nimblepros">
-    <img src="https://img.shields.io/twitter/follow/nimblepros.svg?label=Follow%20@nimblepros" alt="Follow @nimblepros" />
-</a>
 
 # Guard Clauses
 
@@ -66,7 +58,7 @@ To extend your own guards, you can do the following:
 ```c#
 // Using the same namespace will make sure your code picks up your 
 // extensions no matter where they are in your codebase.
-namespace Ardalis.GuardClauses
+namespace Bajonczak.GuardClauses
 {
     public static class FooGuard
     {
@@ -84,16 +76,5 @@ public void SomeMethod(string something)
     Guard.Against.Foo(something, nameof(something));
 }
 ```
-
-## References
-
-- [How to write clean validation clauses in .NET](https://www.youtube.com/watch?v=Tvx6DNarqDM) (Nick Chapsas, YouTube, 9 minutes)
-- [Guard Clauses (podcast: 7 minutes)](http://www.weeklydevtips.com/004)
-- [Guard Clause](http://deviq.com/guard-clause/)
-
-## Build Notes (for maintainers)
-
-- Remember to update the PackageVersion in the csproj file and then a build on master should automatically publish the new package to nuget.org.
-- Add a release with form `1.3.2` to GitHub Releases in order for the package to actually be published to Nuget. Otherwise it will claim to have been successful but is lying to you.
 
 
