@@ -1,11 +1,14 @@
 
 
+[![NuGet](https://img.shields.io/nuget/v/Ardalis.GuardClauses.svg)](https://www.nuget.org/packages/Bajnczak.GuardClauses)
+
+
 
 # Guard Clauses
 
 A simple extensible package with guard clause extensions.
 
-A [guard clause](https://deviq.com/design-patterns/guard-clause) is a software pattern that simplifies complex functions by "failing fast", checking for invalid inputs up front and immediately failing if any are found.
+A [guard clause](https://blog.bajonczak.com/GuardIntro) is a software pattern that simplifies complex functions by "failing fast", checking for invalid inputs up front and immediately failing if any are found.
 
 ## Give a Star! :star:
 
