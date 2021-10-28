@@ -1,7 +1,7 @@
 
 
-[![NuGet](https://img.shields.io/nuget/v/Ardalis.GuardClauses.svg)](https://www.nuget.org/packages/Bajnczak.GuardClauses)
-
+![Nuget](https://img.shields.io/nuget/v/Bajonczak.Guard?style=for-the-badge)
+![Nuget](https://img.shields.io/nuget/dt/Bajonczak.Guard?style=for-the-badge)
 
 
 # Guard Clauses
