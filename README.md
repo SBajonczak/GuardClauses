@@ -2,7 +2,7 @@
 
 ![Nuget](https://img.shields.io/nuget/v/Bajonczak.Guard?style=for-the-badge)
 ![Nuget](https://img.shields.io/nuget/dt/Bajonczak.Guard?style=for-the-badge)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/SBajonczak/GuardClauses.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/SBajonczak/GuardClauses/alerts/)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/SBajonczak/GuardClauses.svg?logo=lgtm&logoWidth=18&style=for-the-badge)](https://lgtm.com/projects/g/SBajonczak/GuardClauses/alerts/)
 
 # Guard Clauses
 
